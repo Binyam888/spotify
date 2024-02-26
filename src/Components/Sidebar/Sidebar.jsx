@@ -25,7 +25,7 @@ function Sidebar() {
  const header =`flex p-3 justify-between ${scrolling && 'shadow-black shadow-md'}`
 
   return (
-    <div className='sidebar-container pl-[10px]'>
+    <div className='sidebar-container pl-[10px] w-[450px] fixed h-[100vh]  '>
 
         <div className="sidebar-top  bg-demo w-[450px] h-[160px] mt-[10px] mb-[10px]  rounded-md px-[20px] pt-[15px]">
          <ul className='text-white flex flex-col '>
@@ -39,7 +39,7 @@ function Sidebar() {
          </ul>
         </div>
 
-        <div className="sidebar-middle bg-demo w-[450px] h-[80vh] rounded-md">
+        <div className="sidebar-middle bg-demo w-[450px]  rounded-md">
 
             <div className={header}>
 
@@ -69,9 +69,9 @@ function Sidebar() {
               
             </div>
 
-            <div className="sidebar-bottom p-[30px] text-gray-400">
+            <div className="sidebar-bottom p-[30px] lg:mt-[50px] h-[100vh] text-gray-400">
 
-                     <ul className='flex md:mt-[60px]'>
+                     <ul className='flex md:mt-[0px]'>
                       <li className='text-[12px]'>Legal</li>
                       <li className='text-[12px] ml-[10px]'>Saftey & Privacy Center</li>
                       <li className='text-[12px] ml-[10px]'>Privacy Policy</li>

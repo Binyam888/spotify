@@ -3,7 +3,7 @@ import { SlArrowRight, SlArrowLeft} from "react-icons/sl";
 
 const Header = () => {
   return (
-    <div className='Heder-container flex justify-between p-3 px-[50px]'>
+    <div className='Heder-container flex justify-between p-3 px-[50px] bg-neutral-950 '>
         <div className="header-nav-icon flex text-center  align-middle justify-center mt-3">
        
         <span className='bg-black px-[9px] rounded-full pt-2 w-[30px] h-[30px] '><SlArrowLeft size={12}/></span>

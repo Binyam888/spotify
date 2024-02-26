@@ -1,13 +1,19 @@
 import React from 'react'
 import Sidebar from './Components/Sidebar/Sidebar'
 import Hero from './Components/Hero/Hero'
+import Footer from './Components/Footer/Footer'
 
 function Index() {
   return (
-    <div className='Container flex '>
-    
+    <div className='Container '>
+    <div className="flex">
     <Sidebar/>
-      <Hero/>
+     <Hero/>
+    </div>
+      {/* <Footer/>
+     */}
+   
+      
     
     </div>
   )
