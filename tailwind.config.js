@@ -6,7 +6,8 @@ export default {
     extend: {
       colors :{
        'bgclr' :'#242424',
-       'demo'  :'#171616'
+       'demo'  :'#171616',
+       'spGreeen' : '#1ed760'  ,
       }
     },
    
