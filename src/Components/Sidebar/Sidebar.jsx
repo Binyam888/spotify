@@ -25,7 +25,7 @@ function Sidebar() {
  const header =`flex p-3 justify-between ${scrolling && 'shadow-black shadow-md'}`
 
   return (
-    <div className='sidebar-container pl-[10px] w-[450px] fixed h-[100vh]  '>
+    <div className='sidebar-container pl-[10px] w-[450px] md:w-[400px] lg:w-[450px]  fixed h-[100vh]  '>
 
         <div className="sidebar-top  bg-demo w-[450px] h-[160px] mt-[10px] mb-[10px]  rounded-md px-[20px] pt-[15px]">
          <ul className='text-white flex flex-col '>

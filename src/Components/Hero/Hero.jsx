@@ -35,18 +35,18 @@ function Hero() {
                 <li>for the Record </li>
                </ul>
 
-               <ul className="list-2 ml-[130px]">
+               <ul className="list-2 ml-[130px] md:ml-[80px]">
                 <li><h1 className='font-bold text-white'>Comunities</h1></li>
-                <li className='mt-[10px]'>demoo</li>
+                <li className='mt-[10px]'></li>
                 <li>For Artists</li>
                 <li>Developers</li>
                 <li>Advertising</li>
                 <li>Investors </li>
                 <li>vendors</li>
                </ul>
-               <ul className="list-3 ml-[130px]">
-                <li><h1 className='font-bold text-white'>Useful links</h1></li>
-                <li className='mt-[10px]'>demo text</li>
+               <ul className="list-3 lg:ml-[130px] md:ml-[80px]">
+                <li><h1 className='font-bold text-white mb-[10px]'>Useful links</h1></li>
+                
                 <li>Suport</li>
                 <li>Free Mobile App</li>
                 
@@ -55,8 +55,8 @@ function Hero() {
             </div>
 
             <div className="hero-scocial-icons mr-[20px]">
-                <ul className='flex '>
-                  <li className='bg-bgclr rounded-full p-3 hover:bg-neutral-600 duration-100'><FaInstagram size={20}/></li>
+                <ul className='flex lg:flex lg:flex-row md:flex md:flex-col'>
+                  <li className='bg-bgclr rounded-full p-3 hover:bg-neutral-600 duration-100 ml-[10px]'><FaInstagram size={20}/></li>
                   <li className='ml-[10px] bg-bgclr rounded-full p-3 hover:bg-neutral-600 duration-100'><FaTwitter size={20}/></li>
                   <li className='ml-[10px] bg-bgclr rounded-full p-3 hover:bg-neutral-600 duration-100'><FaFacebook size={20}/></li>
                 </ul>
