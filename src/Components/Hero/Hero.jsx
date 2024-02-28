@@ -10,7 +10,7 @@ function Hero() {
 
 
   return (
-    <div className='container bg-demo mt-[10px] mr-[10px] ml-[470px] h-[100vh]  rounded-md  '>
+    <div className='container bg-demo mt-[10px] mr-[10px] ml-[420px] h-[100vh]  rounded-md  '>
         <Header/>
         <div className="hero-section   bg-gradient-to-b bg-neutral-900 p-3 rounded-md">
 
