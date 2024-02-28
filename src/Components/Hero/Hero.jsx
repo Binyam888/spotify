@@ -7,6 +7,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
 
 function Hero() {
+
+
   return (
     <div className='container bg-demo mt-[10px] mr-[10px] ml-[470px] h-[100vh]  rounded-md  '>
         <Header/>
